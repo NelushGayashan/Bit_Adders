@@ -1,0 +1,54 @@
+# DESIGN: Default Design Language: VHDL
+# DESIGN: Default BDE Language: VHDL
+# DESIGN: C-Synthesis: Not Defined
+# DESIGN: HDL Synthesis: Not Defined
+# DESIGN: Physical Synthesis: Not Defined
+# DESIGN: Implementation: Not Defined
+acom -reorder -O3 -e 100 -work One_bit_adder_structural -2002  $dsn/src/or_gate.vhd $dsn/src/structural_1_bit_full_adder.vhd $dsn/src/tb_structural_1_bit_full_adder.vhd $dsn/src/xor_gate.vhd
+# Compile Entity "or_gate"
+# Compile Architecture "Behavioral" of Entity "or_gate"
+# Compile Entity "structural_1_bit_full_adder"
+# Compile Architecture "Structural" of Entity "structural_1_bit_full_adder"
+# Compile Entity "tb_structural_1_bit_full_adder"
+# Compile Architecture "Behavioral" of Entity "tb_structural_1_bit_full_adder"
+# Compile Entity "xor_gate"
+# Compile Architecture "Behavioral" of Entity "xor_gate"
+# Incorrect order of units detected.
+# Automatic reorder and incremental recompilation of required units in progress.
+# Top-level unit(s) detected:
+# Entity => tb_structural_1_bit_full_adder
+# Compile Architecture "Structural" of Entity "structural_1_bit_full_adder"
+# Warning: ELAB1_0026: structural_1_bit_full_adder.vhd : (45, 0): There is no default binding for component "and_gate". (No entity named "and_gate" was found).
+# Compile success 0 Errors 1 Warnings  Analysis time :  0.4 [s]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.3 [s].
+asim -O5 +access +r +m+tb_structural_1_bit_full_adder tb_structural_1_bit_full_adder behavioral
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.2 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELBREAD: Warning: ELBREAD_0037 structural_1_bit_full_adder.vhd (45): Component /tb_structural_1_bit_full_adder/uut/and1 : and_gate not bound.
+# ELBREAD: Warning: ELBREAD_0037 structural_1_bit_full_adder.vhd (46): Component /tb_structural_1_bit_full_adder/uut/and2 : and_gate not bound.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5399 kB (elbread=427 elab2=4833 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location G:\Education\Programming\VHDL\Bit_Adders\One_bit_adder_structural\src\wave.asdb
+#  11:19 PM, Sunday, July 21, 2024
+#  Simulation has been initialized
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
