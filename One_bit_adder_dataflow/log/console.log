@@ -89,4 +89,44 @@ run 100 ns
 # KERNEL: stopped at time: 1480 ns
 run 100 ns
 # KERNEL: stopped at time: 1580 ns
-run 100 
+run 100 ns
+# KERNEL: stopped at time: 1680 ns
+run 100 ns
+# KERNEL: stopped at time: 1780 ns
+run 100 ns
+# KERNEL: stopped at time: 1880 ns
+run 10 ns
+# KERNEL: stopped at time: 1890 ns
+run 10 ns
+# KERNEL: stopped at time: 1900 ns
+run 10 ns
+# KERNEL: stopped at time: 1910 ns
+run 10 ns
+# KERNEL: stopped at time: 1920 ns
+run 10 ns
+# KERNEL: stopped at time: 1930 ns
+run 10 ns
+# KERNEL: stopped at time: 1940 ns
+run 10 ns
+# KERNEL: stopped at time: 1950 ns
+run 10 ns
+# KERNEL: stopped at time: 1960 ns
+run 10 ns
+# KERNEL: stopped at time: 1970 ns
+run 10 ns
+# KERNEL: stopped at time: 1980 ns
+run 10 ns
+# KERNEL: stopped at time: 1990 ns
+run 10 ns
+# KERNEL: stopped at time: 2 us
+run 10 ns
+# KERNEL: stopped at time: 2010 ns
+run 10 ns
+# KERNEL: stopped at time: 2020 ns
+run 10 ns
+# KERNEL: stopped at time: 2030 ns
+run 10 ns
+# KERNEL: stopped at time: 2040 ns
+# Waveform file 'G:/Education/Programming/VHDL/Bit_Adders/One_bit_adder_dataflow/src/One_bit_adder_dataflow.awc' connected to 'G:/Education/Programming/VHDL/Bit_Adders/One_bit_adder_dataflow/src/One_bit_adder_dataflow.asdb'.
+# Adding file G:\Education\Programming\VHDL\Bit_Adders\One_bit_adder_dataflow\src\One_bit_adder_dataflow.asdb ... Done
+# Adding file G:\Education\Programming\VHDL\Bit_Adders\One_bit_adder_dataflow\src\One_bit_adder_dataflow.awc ... Done

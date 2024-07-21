@@ -1,0 +1,4 @@
+.\src\xor_gate.vhd
+.\src\or_gate.vhd
+.\src\structural_1_bit_full_adder.vhd
+.\src\tb_structural_1_bit_full_adder.vhd

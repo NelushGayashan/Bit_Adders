@@ -30,3 +30,7 @@ UCF=
 .\src\tb_dataflow_1_bit_full_adder.vhd=VHDL Source Code
 .\src\One_bit_adder_dataflow.asdb=Accelerated Waveform File
 .\src\One_bit_adder_dataflow.awc=Accelerated Waveform Configuration
+[HierarchyViewer]
+HierarchyInformation=tb_dataflow_1_bit_full_adder|behavioral|0
+ShowHide=ShowTopLevel
+Selected=

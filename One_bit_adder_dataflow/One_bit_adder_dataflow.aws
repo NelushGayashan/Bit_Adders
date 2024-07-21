@@ -6,3 +6,8 @@ One_bit_adder_dataflow=One_bit_adder_dataflow.adf
 Active=One_bit_adder_dataflow
 [Expand]
 one_bit_adder_dataflow=1
+[Browser]
+sort=order
+mode=none
+[Order]
+order=1

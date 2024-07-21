@@ -1,0 +1,59 @@
+timestamp=1721584158088
+
+[~A]
+ModifyID=1
+Version=74
+
+[~MFT]
+0=30|0One_bit_adder_structural.mgf|6183|146
+1=6|1One_bit_adder_structural.mgf|4688|2118
+3=3|3One_bit_adder_structural.mgf|804|0
+
+[or_gate]
+A/behavioral=A/Behavioral 21|../src/or_gate.vhd|12|1*0
+BinW64/behavioral=3*0
+I=0*473
+I/behavioral=I/Behavioral 0*922
+M=11|2|vf5|1721584157766|../src/or_gate.vhd|0*177*0x5ed98e57d9dcb4b60807a91b2737ba5c063f8b7e|0*394*0x23b75c12e3e89f2ef000564498faa8c2
+M/behavioral=M/Behavioral 21|2|vf5|1721584157768|../src/or_gate.vhd|0*672*0x6b589649c5843490d7373819c5b6dfbf9d30980a|0*829*0x20116f55b147878295aeff36dce7fc50
+R=../src/or_gate.vhd|4
+Version=15.0.261.9132 (Windows64)|00000003789cd3f5370600015b00b0|c0bd9e03cd2b6ae969c6fbae37861aff26527262ddaa47cb266f3a3c4d9b973aedd52502887fdced60578df0e0361fc9
+Version/behavioral=15.0.261.9132 (Windows64)|00000003789cd3f5370600015b00b0|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff4bacac659605ed14868647527c4e8782f
+
+[structural_1_bit_full_adder]
+A/structural=A/Structural 21|../src/structural_1_bit_full_adder.vhd|14|1*4688
+I=0*1801
+I/structural=I/Structural 0*6183
+M=11|2|vf5|1721584157813|../src/structural_1_bit_full_adder.vhd|0*1360*0x8bf2b6c2bc54e6609f37be509a5a36e4565e35be|0*1682*0x23b75c12e3e89f2ef000564498faa8c2
+M/structural=M/Structural 21|2|vf5|1721584158087|../src/structural_1_bit_full_adder.vhd|0*2020*0xcd6e9b62ea977f118995e4a1f7f278cf8475601d|0*2688*0x20116f55b147878295aeff36dce7fc50
+R=../src/structural_1_bit_full_adder.vhd|4
+Version=15.0.261.9132 (Windows64)|00000003789cd3f5370600015b00b0|781f7a929d57f4ec597b3ce43449488ee7ac44321209d9d8991e68492f0c1fd79b3bb2e58a322debbe6363239eccd109c7a0535d3498d6c8a5a25b6718ef130c
+Version/structural=15.0.261.9132 (Windows64)|00000003789cd3f5370600015b00b0|763af2576fce11abd6060bb6269849fa7b35399d4d6b9112dfc7987dc24af3eb32981e13853ea02261e4a737bbf6aa9d
+
+[tb_structural_1_bit_full_adder]
+A/behavioral=A/Behavioral 21|../src/tb_structural_1_bit_full_adder.vhd|7|1*2762
+BinW64/behavioral=3*246
+I=0*3480
+I/behavioral=I/Behavioral 0*4755
+M=11|2|vf5|1721584157839|../src/tb_structural_1_bit_full_adder.vhd|0*3133*0x13a00172903633a1b165076539d49cf72cfb25a3|0*3355*0x23b75c12e3e89f2ef000564498faa8c2
+M/behavioral=M/Behavioral 21|2|vf5|1721584157841|../src/tb_structural_1_bit_full_adder.vhd|0*3702*0x2583757a652d905d0abfa8decc3d5358e08d678e|0*4616*0x20116f55b147878295aeff36dce7fc50
+R=../src/tb_structural_1_bit_full_adder.vhd|4
+Version=15.0.261.9132 (Windows64)|00000003789cd3f5370600015b00b0|602ec8e2ad53e66ff74fd5d08256f74066123aa4d62d395d97de39b2950c11b8bc06bf8404b8cc6a15ee4619fa342d1959aca4f066d8c1ad7a1dc8aab36fd3c5
+Version/behavioral=15.0.261.9132 (Windows64)|00000003789cd3f5370600015b00b0|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff4265fea5b038b710bf7529146e98464c2
+
+[xor_gate]
+A/behavioral=A/Behavioral 21|../src/xor_gate.vhd|12|1*4042
+BinW64/behavioral=3*804
+I=0*5517
+I/behavioral=I/Behavioral 0*5972
+M=11|2|vf5|1721584157863|../src/xor_gate.vhd|0*5216*0x2d9c102dbcb8f14e286f68421cedab21ce1d73fb|0*5436*0x23b75c12e3e89f2ef000564498faa8c2
+M/behavioral=M/Behavioral 21|2|vf5|1721584157865|../src/xor_gate.vhd|0*5717*0x4318ab71e24a42a25e30a53bef94d72083fb779d|0*5877*0x20116f55b147878295aeff36dce7fc50
+R=../src/xor_gate.vhd|4
+Version=15.0.261.9132 (Windows64)|00000003789cd3f5370600015b00b0|11070725c10b909fd6a7e7d7aeb4dccfd87c0d9e5d47914393e583f08079e890cbe18878e68cee144593d6908a910ba4
+Version/behavioral=15.0.261.9132 (Windows64)|00000003789cd3f5370600015b00b0|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff405dc60bf56122157dae28397fffa865a
+
+[~U]
+or_gate=11|0*0|
+structural_1_bit_full_adder=11|0*1132|
+tb_structural_1_bit_full_adder=11|0*2967|
+xor_gate=11|0*5037|

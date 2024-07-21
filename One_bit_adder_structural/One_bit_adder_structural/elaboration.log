@@ -1,0 +1,36 @@
+Active-HDL 15.0.261.9132 2024-07-21 23:19:42
+
+Elaboration top modules:
+Architecture                  Behavioral(tb_structural_1_bit_full_adder)
+
+
+----------------------------------------------------------------------------------------------------------------------------------
+Entity                         | Architecture | Library                  | Info | Compiler Version          | Compilation Options
+----------------------------------------------------------------------------------------------------------------------------------
+tb_structural_1_bit_full_adder | Behavioral   | One_bit_adder_structural |      | 15.0.261.9132 (Windows64) | -O3
+structural_1_bit_full_adder    | Structural   | One_bit_adder_structural |      | 15.0.261.9132 (Windows64) | -O3
+xor_gate                       | Behavioral   | One_bit_adder_structural |      | 15.0.261.9132 (Windows64) | -O3
+or_gate                        | Behavioral   | One_bit_adder_structural |      | 15.0.261.9132 (Windows64) | -O3
+----------------------------------------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------------------------------------
+VHDL Package                                  | Library                  | Info | Compiler Version          | Compilation Options
+----------------------------------------------------------------------------------------------------------------------------------
+standard                                      | std                      |      |                           | <unavailable>
+TEXTIO                                        | std                      |      | 15.0.261.9132 (Windows64) |  -2019
+std_logic_1164                                | ieee                     |      | 15.0.261.9132 (Windows64) |  -2008
+----------------------------------------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------------------------------------
+Library                                       | Comment
+----------------------------------------------------------------------------------------------------------------------------------
+ieee                                          | Standard IEEE packages library
+One_bit_adder_structural                      | None
+std                                           | Standard VHDL library
+----------------------------------------------------------------------------------------------------------------------------------
+
+
+Simulation Options: asim -O5 +access +r +m+tb_structural_1_bit_full_adder tb_structural_1_bit_full_adder behavioral
+
+
+The performance of simulation is reduced. Version Student Edition
