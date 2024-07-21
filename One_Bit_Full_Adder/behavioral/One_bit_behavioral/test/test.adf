@@ -21,7 +21,7 @@ ON_SERVERFARM_SIM=0
 [IMPLEMENTATION]
 UCF=
 [HierarchyViewer]
-HierarchyInformation=
+HierarchyInformation=tb_behavioral_1_bit_full_adder|behavioral|0
 ShowHide=ShowTopLevel
 Selected=
 [Files]

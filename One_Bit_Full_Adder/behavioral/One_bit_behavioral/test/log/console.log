@@ -174,3 +174,10 @@ run 10 ns
 # Adding file G:\Education\Programming\VHDL\Bit_Adders\One_Bit_Full_Adder\behavioral\One_bit_behavioral\test\src\One_bit_full_adder_behavioral.awc ... Done
 endsim
 # VSIM: Simulation has finished.
+# Waveform file 'untitled.awc' connected to 'G:/Education/Programming/VHDL/Bit_Adders/One_Bit_Full_Adder/behavioral/One_bit_behavioral/test/src/One_bit_full_adder_behavioral.asdb'.
+# Waveform file 'G:/Education/Programming/VHDL/Bit_Adders/One_Bit_Full_Adder/behavioral/One_bit_behavioral/test/src/One_bit_full_adder_behavioral.awc' connected to 'G:/Education/Programming/VHDL/Bit_Adders/One_Bit_Full_Adder/behavioral/One_bit_behavioral/test/src/One_bit_full_adder_behavioral.asdb'.
+# Waveform file 'G:/Education/Programming/VHDL/Bit_Adders/One_Bit_Full_Adder/behavioral/One_bit_behavioral/test/src/One_bit_full_adder_behavioral.awc' connected to 'G:/Education/Programming/VHDL/Bit_Adders/One_Bit_Full_Adder/behavioral/One_bit_behavioral/test/src/One_bit_full_adder_behavioral.asdb'.
+# Waveform file 'untitled.awc' connected to 'G:/Education/Programming/VHDL/Bit_Adders/One_Bit_Full_Adder/behavioral/One_bit_behavioral/test/src/One_bit_full_adder_behavioral.asdb'.
+# Waveform file 'G:/Education/Programming/VHDL/Bit_Adders/One_Bit_Full_Adder/behavioral/One_bit_behavioral/test/src/One_bit_full_adder_behavioral_1.awc' connected to 'G:/Education/Programming/VHDL/Bit_Adders/One_Bit_Full_Adder/behavioral/One_bit_behavioral/test/src/One_bit_full_adder_behavioral_1.asdb'.
+# Adding file G:\Education\Programming\VHDL\Bit_Adders\One_Bit_Full_Adder\behavioral\One_bit_behavioral\test\src\One_bit_full_adder_behavioral_1.asdb ... Done
+# Adding file G:\Education\Programming\VHDL\Bit_Adders\One_Bit_Full_Adder\behavioral\One_bit_behavioral\test\src\One_bit_full_adder_behavioral_1.awc ... Done

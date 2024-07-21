@@ -12,9 +12,7 @@ WindowWorkspaceInfo="LAAAAAAAAAABAAAA/////////////////////836//+ZAAAACQAAAIoCAAA
 [General]
 CurrentVersion=103
 [CACHEDOC|Aldec.Project.Generic.7|.\test\test.adf|]
-Path=
-[Gui config]
-RunFor=100 ns
+Path=/tb_behavioral_1_bit_full_adder
 [COMPILESTATUS|.\src\behavioral_1_bit_full_adder.vhd]
 FileTimeLow=1696309045
 FileTimeHigh=31120244
@@ -77,3 +75,5 @@ Status=Modified
 [CACHEDOC|Aldec.WaveFormASDB.7|.\test\src/One_bit_full_adder_behavioral_1.awc|]
 Frame=0
 WindowWorkspaceInfo="LAAAAAAAAAADAAAA/////////////////////836//99AAAAPf///4oCAAAAAAAAAAAAAAUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADIAAAAyAAAAAAAAAAAAAAAyAAAAMgAAAAAAAAAAAAAAAAAAAAAAAAACQAAAAEAAAAAAAAAAAAAAA=="
+[Gui config]
+RunFor=10 ns

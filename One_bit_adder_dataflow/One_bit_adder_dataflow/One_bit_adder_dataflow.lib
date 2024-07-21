@@ -1,0 +1,36 @@
+timestamp=1721581601063
+
+[~A]
+ModifyID=1
+Version=74
+
+[~MFT]
+0=14|0One_bit_adder_dataflow.mgf|3234|0
+1=2|1One_bit_adder_dataflow.mgf|828|0
+3=2|3One_bit_adder_dataflow.mgf|448|0
+
+[dataflow_1_bit_full_adder]
+A/dataflow=A/DataFlow 21|../src/dataflow_1_bit_full_adder.vhd|14|1*0
+BinW64/dataflow=3*0
+I=0*655
+I/dataflow=I/DataFlow 0*1258
+M=11|2|vf5|1721581600814|../src/dataflow_1_bit_full_adder.vhd|0*224*0x0e787a8a237fde0a2649dfe2f7f694e0ce56c08e|0*540*0x23b75c12e3e89f2ef000564498faa8c2
+M/dataflow=M/DataFlow 21|2|vf5|1721581600829|../src/dataflow_1_bit_full_adder.vhd|0*872*0xe2c4874f8d5b51e783bfc20a837af9d411becb83|0*1131*0x20116f55b147878295aeff36dce7fc50
+R=../src/dataflow_1_bit_full_adder.vhd|4
+Version=15.0.261.9132 (Windows64)|00000003789cd3f5370600015b00b0|08bf02e114cefff59a69424154efa9984c085a5c869f438db26fad4c50ed53632ca4153eadd252b7062208204b698a8c80e488260839c006cb5312dc5e7e1edb
+Version/dataflow=15.0.261.9132 (Windows64)|00000003789cd3f5370600015b00b0|0f4ede524a2b2b6a78d09660b7f488344a07c75f2fa40568c09e9134eae7466be7fdba59cf1ca413ad716f518db0405c
+
+[tb_dataflow_1_bit_full_adder]
+A/behavioral=A/Behavioral 21|../src/tb_dataflow_1_bit_full_adder.vhd|7|1*828
+BinW64/behavioral=3*448
+I=0*2012
+I/behavioral=I/Behavioral 0*3234
+M=11|2|vf5|1721581601021|../src/tb_dataflow_1_bit_full_adder.vhd|0*1646*0x7fdf0b92d74c7391c0dd3810bf5b918c55693248|0*1891*0x23b75c12e3e89f2ef000564498faa8c2
+M/behavioral=M/Behavioral 21|2|vf5|1721581601023|../src/tb_dataflow_1_bit_full_adder.vhd|0*2232*0x62c156f2b47785cae428529b5228341e2f91d461|0*3099*0x20116f55b147878295aeff36dce7fc50
+R=../src/tb_dataflow_1_bit_full_adder.vhd|4
+Version=15.0.261.9132 (Windows64)|00000003789cd3f5370600015b00b0|c8115c91b40aeb49ed69dd51b7a62074d3ee9fee9775ee4dabe9261c5b6d45ac3b482e5c942b0d9e956ea2b1de9b692b295f9424eda112e9e9a714b7ce237396
+Version/behavioral=15.0.261.9132 (Windows64)|00000003789cd3f5370600015b00b0|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff47a232a66df2dc3bd02df169c9a23f79e
+
+[~U]
+dataflow_1_bit_full_adder=11|0*0|
+tb_dataflow_1_bit_full_adder=11|0*1484|

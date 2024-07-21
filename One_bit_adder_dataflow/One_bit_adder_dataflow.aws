@@ -1,0 +1,8 @@
+[Version]
+Version=15.0
+[Designs]
+One_bit_adder_dataflow=One_bit_adder_dataflow.adf
+[Settings]
+Active=One_bit_adder_dataflow
+[Expand]
+one_bit_adder_dataflow=1
