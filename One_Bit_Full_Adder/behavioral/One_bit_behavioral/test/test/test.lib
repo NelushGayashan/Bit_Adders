@@ -1,0 +1,36 @@
+timestamp=1721569645400
+
+[~A]
+ModifyID=1
+Version=74
+
+[~MFT]
+0=14|0test.mgf|3334|0
+1=2|1test.mgf|776|0
+3=2|3test.mgf|434|0
+
+[behavioral_1_bit_full_adder]
+A/behavioral=A/Behavioral 21|../src/behavioral_1_bit_full_adder.vhd|14|1*0
+BinW64/behavioral=3*0
+I=0*669
+I/behavioral=I/Behavioral 0*1316
+M=11|2|vf5|1721569644867|../src/behavioral_1_bit_full_adder.vhd|0*228*0xe4e21e00f77a089d78df4284595049de1313e9c6|0*550*0x23b75c12e3e89f2ef000564498faa8c2
+M/behavioral=M/Behavioral 21|2|vf5|1721569644876|../src/behavioral_1_bit_full_adder.vhd|0*888*0xcbd6ea865cbb9eec232068fba5199764403a7ae6|0*1183*0x20116f55b147878295aeff36dce7fc50
+R=../src/behavioral_1_bit_full_adder.vhd|4
+Version=15.0.261.9132 (Windows64)|00000003789cd3f5370600015b00b0|75d184898bc6ec747d415a08300f5065e7ac44321209d9d8991e68492f0c1fd755004e9f44b30c3e8270b28dbbc66171512aca14c23c616db199c93fea021e3d
+Version/behavioral=15.0.261.9132 (Windows64)|00000003789cd3f5370600015b00b0|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff40a2745da95668f751573c266d330c5af
+
+[tb_behavioral_1_bit_full_adder]
+A/behavioral=A/Behavioral 21|../src/tb_behavioral_1_bit_full_adder.vhd|7|1*776
+BinW64/behavioral=3*434
+I=0*2059
+I/behavioral=I/Behavioral 0*3334
+M=11|2|vf5|1721569645299|../src/tb_behavioral_1_bit_full_adder.vhd|0*1712*0x058e684f6213deeb729aecdbf8dbb8f7157702cf|0*1934*0x23b75c12e3e89f2ef000564498faa8c2
+M/behavioral=M/Behavioral 21|2|vf5|1721569645321|../src/tb_behavioral_1_bit_full_adder.vhd|0*2281*0x5887ba99f28ec92a4a99a9005180ae01aac770bb|0*3195*0x20116f55b147878295aeff36dce7fc50
+R=../src/tb_behavioral_1_bit_full_adder.vhd|4
+Version=15.0.261.9132 (Windows64)|00000003789cd3f5370600015b00b0|decb47d4f9c751e311156ec87e085b6766123aa4d62d395d97de39b2950c11b84e5784a1dc38167fb4769db25930a8170b0368308b4341a4dc4eb3874cecc949
+Version/behavioral=15.0.261.9132 (Windows64)|00000003789cd3f5370600015b00b0|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff457331e2c1c6a41a162572e7c014eab3c
+
+[~U]
+behavioral_1_bit_full_adder=11|0*0|
+tb_behavioral_1_bit_full_adder=11|0*1546|
