@@ -1,0 +1,163 @@
+# DESIGN: Default Design Language: VHDL
+# DESIGN: Default BDE Language: VHDL
+# DESIGN: C-Synthesis: Not Defined
+# DESIGN: HDL Synthesis: Not Defined
+# DESIGN: Physical Synthesis: Not Defined
+# DESIGN: Implementation: Not Defined
+acom -reorder -O3 -e 100 -work Four_Bit_FulL_Adder -2002  $dsn/src/dataflow_4_bit_full_adder.vhdl $dsn/src/tb_dataflow_4_bit_full_adder.vhdl $dsn/src/behavioral_1_bit_full_adder.vhdl $dsn/src/behavioral_4_bit_full_adder.vhdl
+# Compile Entity "dataflow_4_bit_full_adder"
+# Compile Architecture "DataFlow" of Entity "dataflow_4_bit_full_adder"
+# Compile Entity "tb_dataflow_4_bit_full_adder"
+# Compile Architecture "Behavioral" of Entity "tb_dataflow_4_bit_full_adder"
+# Compile Entity "behavioral_1_bit_full_adder"
+# Compile Architecture "Behavioral" of Entity "behavioral_1_bit_full_adder"
+# Compile Entity "behavioral_4_bit_full_adder"
+# Compile Architecture "Behavioral" of Entity "behavioral_4_bit_full_adder"
+# Incorrect order of units detected.
+# Automatic reorder and incremental recompilation of required units in progress.
+# Top-level unit(s) detected:
+# Entity => tb_dataflow_4_bit_full_adder
+# Entity => behavioral_1_bit_full_adder
+# Entity => behavioral_4_bit_full_adder
+# Compile Architecture "DataFlow" of Entity "dataflow_4_bit_full_adder"
+# Error: COMP96_0078: dataflow_4_bit_full_adder.vhdl : (18, 22): Unknown identifier "dataflow_1_bit_full_adder".
+# Error: COMP96_0055: dataflow_4_bit_full_adder.vhdl : (18, 17): Cannot find context item "work.dataflow_1_bit_full_adder".
+# Error: COMP96_0078: dataflow_4_bit_full_adder.vhdl : (19, 22): Unknown identifier "dataflow_1_bit_full_adder".
+# Error: COMP96_0055: dataflow_4_bit_full_adder.vhdl : (19, 17): Cannot find context item "work.dataflow_1_bit_full_adder".
+# Error: COMP96_0078: dataflow_4_bit_full_adder.vhdl : (20, 22): Unknown identifier "dataflow_1_bit_full_adder".
+# Error: COMP96_0055: dataflow_4_bit_full_adder.vhdl : (20, 17): Cannot find context item "work.dataflow_1_bit_full_adder".
+# Error: COMP96_0078: dataflow_4_bit_full_adder.vhdl : (21, 22): Unknown identifier "dataflow_1_bit_full_adder".
+# Error: COMP96_0055: dataflow_4_bit_full_adder.vhdl : (21, 17): Cannot find context item "work.dataflow_1_bit_full_adder".
+# Compile failure 8 Errors 0 Warnings  Analysis time :  1.0 [s]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.1 [s].
+asim -O5 +access +r +m+behavioral_1_bit_full_adder behavioral_1_bit_full_adder behavioral
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.4 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6420 kB (elbread=427 elab2=5854 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location G:\Education\Programming\VHDL\Bit_Adders\Four_Bit_FulL_Adder\src\wave.asdb
+#  8:01 PM, Monday, July 22, 2024
+#  Simulation has been initialized
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+behavioral_1_bit_full_adder behavioral_1_bit_full_adder behavioral
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6420 kB (elbread=427 elab2=5854 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location G:\Education\Programming\VHDL\Bit_Adders\Four_Bit_FulL_Adder\src\wave.asdb
+#  8:02 PM, Monday, July 22, 2024
+#  Simulation has been initialized
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+acom -O3 -e 100 -work Four_Bit_FulL_Adder -2002  $dsn/src/dataflow_4_bit_full_adder.vhdl $dsn/src/tb_dataflow_4_bit_full_adder.vhdl $dsn/src/behavioral_4_bit_full_adder.vhdl $dsn/src/dataflow_1_bit_full_adder.vhd $dsn/src/and_gate.vhd $dsn/src/or_gate.vhd $dsn/src/xor_gate.vhd $dsn/src/structural_1_bit_full_adder.vhd $dsn/src/tb_behavioral_4_bit_full_adder.vhd
+# Compile Entity "dataflow_4_bit_full_adder"
+# Compile Architecture "DataFlow" of Entity "dataflow_4_bit_full_adder"
+# Error: COMP96_0078: dataflow_4_bit_full_adder.vhdl : (18, 22): Unknown identifier "dataflow_1_bit_full_adder".
+# Error: COMP96_0055: dataflow_4_bit_full_adder.vhdl : (18, 17): Cannot find context item "work.dataflow_1_bit_full_adder".
+# Error: COMP96_0078: dataflow_4_bit_full_adder.vhdl : (19, 22): Unknown identifier "dataflow_1_bit_full_adder".
+# Error: COMP96_0055: dataflow_4_bit_full_adder.vhdl : (19, 17): Cannot find context item "work.dataflow_1_bit_full_adder".
+# Error: COMP96_0078: dataflow_4_bit_full_adder.vhdl : (20, 22): Unknown identifier "dataflow_1_bit_full_adder".
+# Error: COMP96_0055: dataflow_4_bit_full_adder.vhdl : (20, 17): Cannot find context item "work.dataflow_1_bit_full_adder".
+# Error: COMP96_0078: dataflow_4_bit_full_adder.vhdl : (21, 22): Unknown identifier "dataflow_1_bit_full_adder".
+# Error: COMP96_0055: dataflow_4_bit_full_adder.vhdl : (21, 17): Cannot find context item "work.dataflow_1_bit_full_adder".
+# Compile Entity "tb_dataflow_4_bit_full_adder"
+# Compile Architecture "Behavioral" of Entity "tb_dataflow_4_bit_full_adder"
+# Compile Entity "behavioral_4_bit_full_adder"
+# Compile Architecture "Behavioral" of Entity "behavioral_4_bit_full_adder"
+# Compile Entity "dataflow_1_bit_full_adder"
+# Compile Architecture "DataFlow" of Entity "dataflow_1_bit_full_adder"
+# Compile Entity "and_gate"
+# Compile Architecture "Behavioral" of Entity "and_gate"
+# Compile Entity "or_gate"
+# Compile Architecture "Behavioral" of Entity "or_gate"
+# Compile Entity "xor_gate"
+# Compile Architecture "Behavioral" of Entity "xor_gate"
+# Compile Entity "structural_1_bit_full_adder"
+# Compile Architecture "Structural" of Entity "structural_1_bit_full_adder"
+# Compile Entity "tb_behavioral_4_bit_full_adder"
+# Compile Architecture "Behavioral" of Entity "tb_behavioral_4_bit_full_adder"
+# Compile failure 8 Errors 0 Warnings  Analysis time :  0.2 [s]
+acom -O3 -e 100 -work Four_Bit_FulL_Adder -2002  $dsn/src/dataflow_4_bit_full_adder.vhdl $dsn/src/tb_dataflow_4_bit_full_adder.vhdl $dsn/src/behavioral_4_bit_full_adder.vhdl $dsn/src/dataflow_1_bit_full_adder.vhd $dsn/src/and_gate.vhd $dsn/src/or_gate.vhd $dsn/src/xor_gate.vhd $dsn/src/structural_1_bit_full_adder.vhd $dsn/src/tb_behavioral_4_bit_full_adder.vhd
+# Compile Entity "dataflow_4_bit_full_adder"
+# Compile Architecture "DataFlow" of Entity "dataflow_4_bit_full_adder"
+# Error: COMP96_0078: dataflow_4_bit_full_adder.vhdl : (18, 17): Unknown identifier "dataflow_1_bit_full_adder".
+# Error: COMP96_0056: dataflow_4_bit_full_adder.vhdl : (18, 17): Cannot find referenced entity declaration "dataflow_1_bit_full_adder".
+# Error: COMP96_0055: dataflow_4_bit_full_adder.vhdl : (18, 17): Cannot find context item "dataflow_1_bit_full_adder".
+# Error: COMP96_0078: dataflow_4_bit_full_adder.vhdl : (19, 17): Unknown identifier "dataflow_1_bit_full_adder".
+# Error: COMP96_0056: dataflow_4_bit_full_adder.vhdl : (19, 17): Cannot find referenced entity declaration "dataflow_1_bit_full_adder".
+# Error: COMP96_0055: dataflow_4_bit_full_adder.vhdl : (19, 17): Cannot find context item "dataflow_1_bit_full_adder".
+# Error: COMP96_0078: dataflow_4_bit_full_adder.vhdl : (20, 17): Unknown identifier "dataflow_1_bit_full_adder".
+# Error: COMP96_0056: dataflow_4_bit_full_adder.vhdl : (20, 17): Cannot find referenced entity declaration "dataflow_1_bit_full_adder".
+# Error: COMP96_0055: dataflow_4_bit_full_adder.vhdl : (20, 17): Cannot find context item "dataflow_1_bit_full_adder".
+# Error: COMP96_0078: dataflow_4_bit_full_adder.vhdl : (21, 17): Unknown identifier "dataflow_1_bit_full_adder".
+# Error: COMP96_0056: dataflow_4_bit_full_adder.vhdl : (21, 17): Cannot find referenced entity declaration "dataflow_1_bit_full_adder".
+# Error: COMP96_0055: dataflow_4_bit_full_adder.vhdl : (21, 17): Cannot find context item "dataflow_1_bit_full_adder".
+# Compile Entity "tb_dataflow_4_bit_full_adder"
+# Compile Architecture "Behavioral" of Entity "tb_dataflow_4_bit_full_adder"
+# Compile Entity "behavioral_4_bit_full_adder"
+# Compile Architecture "Behavioral" of Entity "behavioral_4_bit_full_adder"
+# Compile Entity "dataflow_1_bit_full_adder"
+# Compile Architecture "DataFlow" of Entity "dataflow_1_bit_full_adder"
+# Compile Entity "and_gate"
+# Compile Architecture "Behavioral" of Entity "and_gate"
+# Compile Entity "or_gate"
+# Compile Architecture "Behavioral" of Entity "or_gate"
+# Compile Entity "xor_gate"
+# Compile Architecture "Behavioral" of Entity "xor_gate"
+# Compile Entity "structural_1_bit_full_adder"
+# Compile Architecture "Structural" of Entity "structural_1_bit_full_adder"
+# Compile Entity "tb_behavioral_4_bit_full_adder"
+# Compile Architecture "Behavioral" of Entity "tb_behavioral_4_bit_full_adder"
+# Compile failure 12 Errors 0 Warnings  Analysis time :  0.2 [s]
+acom -O3 -e 100 -work Four_Bit_FulL_Adder -2002  $dsn/src/dataflow_1_bit_full_adder.vhd $dsn/src/dataflow_4_bit_full_adder.vhdl $dsn/src/tb_dataflow_4_bit_full_adder.vhdl $dsn/src/behavioral_4_bit_full_adder.vhdl $dsn/src/and_gate.vhd $dsn/src/or_gate.vhd $dsn/src/xor_gate.vhd $dsn/src/structural_1_bit_full_adder.vhd $dsn/src/tb_behavioral_4_bit_full_adder.vhd
+# Compile Entity "dataflow_1_bit_full_adder"
+# Compile Architecture "DataFlow" of Entity "dataflow_1_bit_full_adder"
+# Compile Entity "dataflow_4_bit_full_adder"
+# Compile Architecture "DataFlow" of Entity "dataflow_4_bit_full_adder"
+# Error: COMP96_0078: dataflow_4_bit_full_adder.vhdl : (18, 17): Unknown identifier "dataflow_1_bit_full_adder".
+# Error: COMP96_0056: dataflow_4_bit_full_adder.vhdl : (18, 17): Cannot find referenced entity declaration "dataflow_1_bit_full_adder".
+# Error: COMP96_0055: dataflow_4_bit_full_adder.vhdl : (18, 17): Cannot find context item "dataflow_1_bit_full_adder".
+# Error: COMP96_0078: dataflow_4_bit_full_adder.vhdl : (19, 17): Unknown identifier "dataflow_1_bit_full_adder".
+# Error: COMP96_0056: dataflow_4_bit_full_adder.vhdl : (19, 17): Cannot find referenced entity declaration "dataflow_1_bit_full_adder".
+# Error: COMP96_0055: dataflow_4_bit_full_adder.vhdl : (19, 17): Cannot find context item "dataflow_1_bit_full_adder".
+# Error: COMP96_0078: dataflow_4_bit_full_adder.vhdl : (20, 17): Unknown identifier "dataflow_1_bit_full_adder".
+# Error: COMP96_0056: dataflow_4_bit_full_adder.vhdl : (20, 17): Cannot find referenced entity declaration "dataflow_1_bit_full_adder".
+# Error: COMP96_0055: data
