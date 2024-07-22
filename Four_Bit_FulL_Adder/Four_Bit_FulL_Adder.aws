@@ -1,0 +1,8 @@
+[Version]
+Version=15.0
+[Designs]
+Four_Bit_FulL_Adder=Four_Bit_FulL_Adder.adf
+[Settings]
+Active=Four_Bit_FulL_Adder
+[Expand]
+four_bit_full_adder=1

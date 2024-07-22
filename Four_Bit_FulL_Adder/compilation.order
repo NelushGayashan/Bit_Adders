@@ -1,0 +1,9 @@
+.\src\dataflow_1_bit_full_adder.vhd
+.\src\dataflow_4_bit_full_adder.vhdl
+.\src\tb_dataflow_4_bit_full_adder.vhdl
+.\src\behavioral_4_bit_full_adder.vhdl
+.\src\and_gate.vhd
+.\src\or_gate.vhd
+.\src\xor_gate.vhd
+.\src\structural_1_bit_full_adder.vhd
+.\src\tb_behavioral_4_bit_full_adder.vhd

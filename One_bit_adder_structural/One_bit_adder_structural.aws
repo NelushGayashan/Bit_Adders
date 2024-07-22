@@ -6,3 +6,8 @@ One_bit_adder_structural=One_bit_adder_structural.adf
 Active=One_bit_adder_structural
 [Expand]
 one_bit_adder_structural=1
+[Browser]
+sort=order
+mode=none
+[Order]
+order=1

@@ -30,3 +30,7 @@ UCF=
 .\src\or_gate.vhd=VHDL Source Code
 .\src\structural_1_bit_full_adder.vhd=VHDL Source Code
 .\src\tb_structural_1_bit_full_adder.vhd=VHDL Source Code
+[HierarchyViewer]
+HierarchyInformation=tb_structural_1_bit_full_adder|behavioral|0
+ShowHide=ShowTopLevel
+Selected=

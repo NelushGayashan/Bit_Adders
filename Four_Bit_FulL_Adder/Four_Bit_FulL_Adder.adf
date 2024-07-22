@@ -1,0 +1,42 @@
+[Project]
+Current Flow=Multivendor
+VCS=0
+version=4
+Current Config=compile
+[Configurations]
+compile=Four_Bit_FulL_Adder
+[Library]
+Four_Bit_FulL_Adder=.\Four_Bit_FulL_Adder\Four_Bit_FulL_Adder.lib
+[$LibMap$]
+Four_Bit_FulL_Adder=.
+Active_lib=
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=ONLY_IMPL
+ON_SERVERFARM_SYNTH=0
+ON_SERVERFARM_IMPL=0
+ON_SERVERFARM_SIM=0
+[IMPLEMENTATION]
+UCF=
+[Files]
+/dataflow_1_bit_full_adder.vhd=-1
+/dataflow_4_bit_full_adder.vhdl=-1
+/tb_dataflow_4_bit_full_adder.vhdl=-1
+/behavioral_4_bit_full_adder.vhdl=-1
+/and_gate.vhd=-1
+/or_gate.vhd=-1
+/xor_gate.vhd=-1
+/structural_1_bit_full_adder.vhd=-1
+/tb_behavioral_4_bit_full_adder.vhd=-1
+[Files.Data]
+.\src\dataflow_1_bit_full_adder.vhd=VHDL Source Code
+.\src\dataflow_4_bit_full_adder.vhdl=VHDL Source Code
+.\src\tb_dataflow_4_bit_full_adder.vhdl=VHDL Source Code
+.\src\behavioral_4_bit_full_adder.vhdl=VHDL Source Code
+.\src\and_gate.vhd=VHDL Source Code
+.\src\or_gate.vhd=VHDL Source Code
+.\src\xor_gate.vhd=VHDL Source Code
+.\src\structural_1_bit_full_adder.vhd=VHDL Source Code
+.\src\tb_behavioral_4_bit_full_adder.vhd=VHDL Source Code

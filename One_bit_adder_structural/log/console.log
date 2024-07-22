@@ -52,3 +52,29 @@ run
 # KERNEL: Simulation has finished. There are no more test vectors to simulate.
 endsim
 # VSIM: Simulation has finished.
+asim -O5 +access +r +m+tb_structural_1_bit_full_adder tb_structural_1_bit_full_adder behavioral
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.2 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELBREAD: Warning: ELBREAD_0037 structural_1_bit_full_adder.vhd (45): Component /tb_structural_1_bit_full_adder/uut/and1 : and_gate not bound.
+# ELBREAD: Warning: ELBREAD_0037 structural_1_bit_full_adder.vhd (46): Component /tb_structural_1_bit_full_adder/uut/and2 : and_gate not bound.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5399 kB (elbread=427 elab2=4833 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location G:\Education\Programming\VHDL\Bit_Adders\One_bit_adder_structural\src\wave.asdb
+#  11:19 PM, Sunday, July 21, 2024
+#  Simulation has been initialized

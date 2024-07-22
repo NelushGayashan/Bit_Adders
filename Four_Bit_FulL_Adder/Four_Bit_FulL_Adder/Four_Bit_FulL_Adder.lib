@@ -1,0 +1,130 @@
+timestamp=1721658974081
+
+[~A]
+ModifyID=5
+Version=74
+
+[~MFT]
+0=3|0Four_Bit_FulL_Adder.mgf|20858|4452
+1=1|1Four_Bit_FulL_Adder.mgf|30319|20544
+3=0|3Four_Bit_FulL_Adder.mgf|10493|7508
+
+[and_gate]
+A/behavioral=A/Behavioral 21|../src/and_gate.vhd|12|1*24883
+BinW64/behavioral=3*9750
+I=0*8926
+I/behavioral=I/Behavioral 0*18905
+M=11|2|vf5|1721658757974|../src/and_gate.vhd|0*8616*0x4f5567ada5ae7fa1e3b4423f0d7b26ae6a8bd768|0*8845*0x23b75c12e3e89f2ef000564498faa8c2
+M/behavioral=M/Behavioral 21|2|vf5|1721658916595|../src/and_gate.vhd|0*9126*0xc3c61a817d7411bcfd74622564f27b1e04332da7|0*9297*0x20116f55b147878295aeff36dce7fc50
+R=../src/and_gate.vhd|4
+Version=15.0.261.9132 (Windows64)|00000003789cd3f5370600015b00b0|41efc8ebaa23e4e72891b14cb2d32c877f4cee0fde8a5d9850c97b661401bf34bac6891008d4ce317d4736bc15d67b43
+Version/behavioral=15.0.261.9132 (Windows64)|00000003789cd3f5370600015b00b0|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff461b48905c50714301076289ba9abc443
+
+[behavioral_1_bit_full_adder]
+A/behavioral=A/Behavioral 21|../src/behavioral_1_bit_full_adder.vhdl|14|1*1546
+BinW64/behavioral=3*561
+I=0*3787
+I/behavioral=I/Behavioral 0*4415
+M=11|2|vf5|1721658431066|../src/behavioral_1_bit_full_adder.vhdl|0*3316*0x179c56ea0cd19d8d5b93444facb173a22cfbb4a9|0*3667*0x23b75c12e3e89f2ef000564498faa8c2
+M/behavioral=M/Behavioral 21|2|vf5|1721658431095|../src/behavioral_1_bit_full_adder.vhdl|0*4006*0xc511555862aebed2c46b61c719f92302724673d5|0*4281*0x20116f55b147878295aeff36dce7fc50
+R=../src/behavioral_1_bit_full_adder.vhdl|4
+Version=15.0.261.9132 (Windows64)|00000003789cd3f5370600015b00b0|75d184898bc6ec747d415a08300f5065e7ac44321209d9d8991e68492f0c1fd755004e9f44b30c3e8270b28dbbc661717ca1af653267e9a0f026a494c4778cfd
+Version/behavioral=15.0.261.9132 (Windows64)|00000003789cd3f5370600015b00b0|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff4751899b41aab596eef8ee86167cda8bd
+
+[behavioral_4_bit_full_adder]
+A/behavioral=A/Behavioral 21|../src/behavioral_4_bit_full_adder.vhdl|14|1*23757
+BinW64/behavioral=3*8981
+I=0*5402
+I/behavioral=I/Behavioral 0*18675
+M=11|2|vf5|1721658431301|../src/behavioral_4_bit_full_adder.vhdl|0*4889*0x1bf6aaa4cede063e088d36f2cd3e78dde7e412b4|0*5282*0x23b75c12e3e89f2ef000564498faa8c2
+M/behavioral=M/Behavioral 21|2|vf5|1721658916562|../src/behavioral_4_bit_full_adder.vhdl|0*5621*0x2e618a76120117b7efd81a5cd10020559ab21fa1|0*6050*0x20116f55b147878295aeff36dce7fc50
+R=../src/behavioral_4_bit_full_adder.vhdl|4
+Version=15.0.261.9132 (Windows64)|00000003789cd3f5370600015b00b0|f1e51ce88b4543ce83637a715715a1e2e7ac44321209d9d8991e68492f0c1fd7faa3d982f82b1be4b128f96f6cc4a18040c4cc048cdfa5011de8399509ecb745
+Version/behavioral=15.0.261.9132 (Windows64)|00000003789cd3f5370600015b00b0|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff4623c002824dab8bf0dada04e29a254c6
+
+[dataflow_1_bit_full_adder]
+A/dataflow=A/DataFlow 21|../src/dataflow_1_bit_full_adder.vhd|14|1*21383
+BinW64/dataflow=3*7965
+I=0*7605
+I/dataflow=I/DataFlow 0*18169
+M=11|2|vf5|1721658757944|../src/dataflow_1_bit_full_adder.vhd|0*7148*0xa89f15d39f0d152aa88c5feed68f5d9890971592|0*7490*0x23b75c12e3e89f2ef000564498faa8c2
+M/dataflow=M/DataFlow 21|2|vf5|1721658916435|../src/dataflow_1_bit_full_adder.vhd|0*7822*0x35cb4a8a3d88ca1e1b7a2612efb0b0941e748fe4|0*8084*0x20116f55b147878295aeff36dce7fc50
+R=../src/dataflow_1_bit_full_adder.vhd|4
+Version=15.0.261.9132 (Windows64)|00000003789cd3f5370600015b00b0|08bf02e114cefff59a69424154efa9984c085a5c869f438db26fad4c50ed53632ca4153eadd252b7062208204b698a8c7b0fbc8144d2ded1436aebf2bba4fa38
+Version/dataflow=15.0.261.9132 (Windows64)|00000003789cd3f5370600015b00b0|0f4ede524a2b2b6a78d09660b7f488344a07c75f2fa40568c09e9134eae7466bcadee6f8b949736e6d5e5b2487f21dda
+
+[dataflow_4_bit_full_adder]
+A/dataflow=A/DataFlow 21|../src/dataflow_4_bit_full_adder.vhdl|14|1*30319
+I=0*741
+I/dataflow=I/DataFlow 0*20858
+M=11|2|vf5|1721658430665|../src/dataflow_4_bit_full_adder.vhdl|0*240*0x95cf9d7e758ac7897dd5aec927184786b08e3545|0*625*0x23b75c12e3e89f2ef000564498faa8c2
+M/dataflow=M/DataFlow 21|2|vf5|1721658974077|../src/dataflow_4_bit_full_adder.vhdl|0*20140*0xc417f5b3ad512f6ded8bec36eeae115f979bc2ee|0*20730*0x20116f55b147878295aeff36dce7fc50
+R=../src/dataflow_4_bit_full_adder.vhdl|4
+Version=15.0.261.9132 (Windows64)|00000003789cd3f5370600015b00b0|d6f7a29d31d2519f15de75eaea499f60298f4bc31f940b4d52d8f775f9f601b6a5fd8f1828bf7d68a6da40876b913f5486e757773eea4729182a6f4b92cc1985
+Version/dataflow=15.0.261.9132 (Windows64)|00000003789cd3f5370600015b00b0|0f4ede524a2b2b6a78d09660b7f488344a07c75f2fa40568c09e9134eae7466baeda3e5c7a995ebd812b946d678fb9a2
+
+[or_gate]
+A/behavioral=A/Behavioral 21|../src/or_gate.vhd|12|1*25529
+BinW64/behavioral=3*9998
+I=0*10084
+I/behavioral=I/Behavioral 0*19116
+M=11|2|vf5|1721658758036|../src/or_gate.vhd|0*9780*0x8e478726e871078a2e791e8495badaf186306631|0*10005*0x23b75c12e3e89f2ef000564498faa8c2
+M/behavioral=M/Behavioral 21|2|vf5|1721658916633|../src/or_gate.vhd|0*10283*0xb9af273bc70fc5dd579ea0aee3514f8cc25dc4a8|0*10451*0x20116f55b147878295aeff36dce7fc50
+R=../src/or_gate.vhd|4
+Version=15.0.261.9132 (Windows64)|00000003789cd3f5370600015b00b0|c0bd9e03cd2b6ae969c6fbae37861aff26527262ddaa47cb266f3a3c4d9b973a31d0d3f6c541ea0658c64b04d3535603
+Version/behavioral=15.0.261.9132 (Windows64)|00000003789cd3f5370600015b00b0|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff433a368d57837c0ae8e6d7989636e1d38
+
+[structural_1_bit_full_adder]
+A/structural=A/Structural 21|../src/structural_1_bit_full_adder.vhd|14|1*26819
+I=0*12617
+I/structural=I/Structural 0*19537
+M=11|2|vf5|1721658758110|../src/structural_1_bit_full_adder.vhd|0*12148*0x8ecb182feacd3d201925a2b7085b3a8ea22ba509|0*12498*0x23b75c12e3e89f2ef000564498faa8c2
+M/structural=M/Structural 21|2|vf5|1721658916699|../src/structural_1_bit_full_adder.vhd|0*12836*0x7062c9f10f93bc933c185a6176fac9ec2dce2de9|0*13584*0x20116f55b147878295aeff36dce7fc50
+R=../src/structural_1_bit_full_adder.vhd|4
+Version=15.0.261.9132 (Windows64)|00000003789cd3f5370600015b00b0|781f7a929d57f4ec597b3ce43449488ee7ac44321209d9d8991e68492f0c1fd79b3bb2e58a322debbe6363239eccd1093fab7785917c501d1cd5c08736d4801e
+Version/structural=15.0.261.9132 (Windows64)|00000003789cd3f5370600015b00b0|763af2576fce11abd6060bb6269849fa7b35399d4d6b9112dfc7987dc24af3eb58ecafac5407213440f075d313f3fef7
+
+[tb_behavioral_4_bit_full_adder]
+A/behavioral=A/Behavioral 21|../src/tb_behavioral_4_bit_full_adder.vhd|7|1*28764
+BinW64/behavioral=3*10493
+I=0*14582
+I/behavioral=I/Behavioral 0*19858
+M=11|2|vf5|1721658758116|../src/tb_behavioral_4_bit_full_adder.vhd|0*14204*0xdc65bdf00a04a17d26bb63c4e0a83917fb889206|0*14457*0x23b75c12e3e89f2ef000564498faa8c2
+M/behavioral=M/Behavioral 21|2|vf5|1721658916705|../src/tb_behavioral_4_bit_full_adder.vhd|0*14804*0x6b7381266ae8c963176bed9c0b04728c539ce1b0|0*15777*0x20116f55b147878295aeff36dce7fc50
+R=../src/tb_behavioral_4_bit_full_adder.vhd|4
+Version=15.0.261.9132 (Windows64)|00000003789cd3f5370600015b00b0|decb47d4f9c751e311156ec87e085b67cdc9849eb8f360ab55978ee6551537c22a4b35dc0fa2edb34c2a599b22603530f3e2414cc0859ef8fbc2e968292ca6d7
+Version/behavioral=15.0.261.9132 (Windows64)|00000003789cd3f5370600015b00b0|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff46ba3e2688bc58535132af6bfcfc506a0
+
+[tb_dataflow_4_bit_full_adder]
+A/behavioral=A/Behavioral 21|../src/tb_dataflow_4_bit_full_adder.vhdl|7|1*22211
+BinW64/behavioral=3*8420
+I=0*1488
+I/behavioral=I/Behavioral 0*18395
+M=11|2|vf5|1721658430703|../src/tb_dataflow_4_bit_full_adder.vhdl|0*1120*0x03961997840f8112778be5a57071057f8ddc6166|0*1366*0x23b75c12e3e89f2ef000564498faa8c2
+M/behavioral=M/Behavioral 21|2|vf5|1721658916515|../src/tb_dataflow_4_bit_full_adder.vhdl|0*1708*0x01c7759b8a5e100a2b9c6d74dbe5e71c0f107354|0*2672*0x20116f55b147878295aeff36dce7fc50
+R=../src/tb_dataflow_4_bit_full_adder.vhdl|4
+Version=15.0.261.9132 (Windows64)|00000003789cd3f5370600015b00b0|c8115c91b40aeb49ed69dd51b7a62074e25ba3e83dd613d18866838f200e226d88293da1480c52f4936768d1903732cb0875d7e176dec1c7ade88f5751bae9e4
+Version/behavioral=15.0.261.9132 (Windows64)|00000003789cd3f5370600015b00b0|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff48602918020fbcaabe5381bbad812efed
+
+[xor_gate]
+A/behavioral=A/Behavioral 21|../src/xor_gate.vhd|12|1*26173
+BinW64/behavioral=3*10244
+I=0*11243
+I/behavioral=I/Behavioral 0*19326
+M=11|2|vf5|1721658758071|../src/xor_gate.vhd|0*10933*0x32383c5a3e083ebdfbf74b63966f773c9e1aedac|0*11162*0x23b75c12e3e89f2ef000564498faa8c2
+M/behavioral=M/Behavioral 21|2|vf5|1721658916667|../src/xor_gate.vhd|0*11443*0x949fa6c2ebe62b35ef0a26e2290d2ee79aca5a7c|0*11614*0x20116f55b147878295aeff36dce7fc50
+R=../src/xor_gate.vhd|4
+Version=15.0.261.9132 (Windows64)|00000003789cd3f5370600015b00b0|11070725c10b909fd6a7e7d7aeb4dccfd87c0d9e5d47914393e583f08079e89081534a318f6f5b7aea0fa12470bf7343
+Version/behavioral=15.0.261.9132 (Windows64)|00000003789cd3f5370600015b00b0|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff45c46652e16d08402d17495c445b63d9f
+
+[~U]
+and_gate=11|0*8437|
+behavioral_1_bit_full_adder=11|0*3088|
+behavioral_4_bit_full_adder=11|0*4645|
+dataflow_1_bit_full_adder=11|0*6924|
+dataflow_4_bit_full_adder=11|0*0|
+or_gate=11|0*9603|
+structural_1_bit_full_adder=11|0*11920|
+tb_behavioral_4_bit_full_adder=11|0*14038|
+tb_dataflow_4_bit_full_adder=11|0*958|
+xor_gate=11|0*10754|
